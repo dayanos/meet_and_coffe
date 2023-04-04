@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Open Sans";
+    color: #000f08
+}
+
+
+nav{
+    background-color: #000f08; /* color de fondo de nav*/
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 130px;
+    width: 100%;
+}
+
+
+nav,li {
+    display:inline-block; /* alinear elementos al lado del otro*/
+    padding-right: 50px;
+    vertical-align: middle;
+} 
+
+nav li a {
+    color:#ffffff;
+    text-decoration: none ; /*pra quitar las lineas del ancord*/
+}
+
+.hero-section {   /* imagen de fondo al titulo*/
+    background-image: url("../img/bg-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    color: white;
+    text-align: right;
+    text-shadow: 0px 3px 6px #00000080;
+    padding: 100px;
+    margin-right: 0;
+}
+
+.hero-section h1 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-right: 10%;
+    padding-left: 30%;
+}
+
+.hero-section h2 {
+    font-weight: 400;
+    font-size: 30px;  /* agregar tamaño a la letra*/
+    padding-right: 10%;
+    padding-left: 30%;
+}
+
+#ubicacion {
+    padding: 150px;
+    justify-content: center;
+}
+
+#ubicacion h2 {
+    font-size: 45px;
+    margin: top ; /* lo que provoca es que elementos se separen*/
+    font-weight: bold ; /*le da el grosor a la letra, ponerlo bold*/
+}
+
+#ubicacion p {
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+#proxima-charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+   }
+
+#proxima-charla .centrado {
+    width: 900px;
+    margin: auto;
+   }
+
+
+#proxima-charla img, .charla-texto {  /*agrupamos 2 para darle una instrucion*/
+    display: inline-block; 
+    vertical-align: middle; /* centrar*/
+    }
+
+.centrado img {
+    width: 25%;
+   }
+
+.centrado .charla-texto {
+    width: 70%;
+    margin-left: 4%;
+    text-align: left;
+   }
+
+.centrado .charla-texto h2{
+    font-size: 45px;
+ }
+
+ .centrado .charla-texto h4{
+    font-size: 40px;
+ }
+
+ .centrado .charla-texto h5 {
+    font-size: 33px;
+    font-weight: normal;
+}
+
+.centrado .charla-texto h6 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.centrado .charla-texto p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#eventos {
+    padding: 60px;
+    
+}
+
+#eventos h2{
+    padding-top: 70px;
+    text-align: inherit;
+    font-size: 40px;
+    
+    }
+
+.evento {
+    display: inline-block; 
+    vertical-align: middle; /* centrar*/
+    padding: 40px ;
+    
+    }
+
+.evento img{
+    width: 300px;
+}
+
+
+.evento h3 {
+    font-size: 30px;
+    padding: 30px;
+    
+}
+
+.evento a { 
+text-decoration: none ;
+}
+
+.oscuro a {
+    justify-content: center;
+    padding-left: 20px;
+     }
+
+footer { 
+    background-color: #000f08;
+    margin: 0px;
+    border: 0px;
+    padding-block: 60px;
+    width: 100%;
+    height: 100px;
+}
+
+footer p { 
+    color: white; 
+    padding-top: 35PX;
+}
+
+.conta1 { 
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+
+}
+
+.conta1 h2 { 
+    text-align: left;
+    padding-bottom: 40px;
+
+}
+
+.conta2 {
+    padding-left: 20%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
